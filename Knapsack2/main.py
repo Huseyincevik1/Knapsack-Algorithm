@@ -40,7 +40,7 @@ def solve_time(file_name):
     start = time.perf_counter()
     last_input = solve(file_name)
     stop = time.perf_counter()
-   # print(stop - start) süreyi yazdırır.
+   # print(stop - start) süreyi yazdırır
     return (stop - start)
 
 if __name__ == "__main__":
